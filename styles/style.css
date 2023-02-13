@@ -9,7 +9,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  background-color: #f2f2f2;
+  background: #f2f2f2;
   position: relative;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
 
 .header__title {
   margin: 0;
-  width: 730px;
+  max-width: 730px;
   font-size: 102px;
   line-height: 96px;
   font-weight: 600;
@@ -40,7 +40,7 @@
 
 .header__subtitle {
   position: absolute;
-  width: 388px;
+  max-width: 388px;
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -63,7 +63,7 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-  background-color: #2f80ed;
+  background: #2f80ed;
   position: absolute;
   right: 0;
   top: 64px;
@@ -78,7 +78,7 @@
 }
 
 .two-columns {
-  width: 80%;
+  max-width: 80%;
   min-width: 784px;
   display: flex;
   flex-direction: row;
@@ -92,7 +92,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  width: 175px;
+  max-width: 175px;
 }
 
 .two-columns__main-text {
@@ -131,7 +131,7 @@
   text-align: center;
 }
 .section-subtitle {
-  width: 60%;
+  max-width: 60%;
   margin: 0 0 60px 0;
   line-height: 34px;
   font-size: 24px;
@@ -150,7 +150,7 @@
 }
 
 .table__cell {
-  width: 250px;
+  max-width: 250px;
 }
 
 .table__heading {
@@ -169,7 +169,7 @@
 }
 
 .feynman {
-  background-color: #f2f2f2;
+  background: #f2f2f2;
   height: 890px;
   position: relative;
   display: flex;
@@ -181,7 +181,7 @@
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
   top: 100px;
   line-height: 1.15;
   font-size: 120px;
@@ -218,7 +218,7 @@
 
 .kaufman {
   margin: auto;
-  background-color: #1f1f1f;
+  background: #1f1f1f;
   color: white;
   display: flex;
   flex-direction: column;
@@ -232,16 +232,17 @@
 .section-title_theme_dark {
   padding: 0;
   margin: 0 0 20px 0;
-  width: 60%;
+  max-width: 60%;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  z-index: 1;
 }
 
 .section-subtitle_theme_dark {
   padding: 0;
   margin: 0 0 80px 0;
-  width: 60%;
+  max-width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -272,10 +273,9 @@
   top: 0;
   background-size: cover;
 }
-
 .footer {
   margin: 0;
-  background-color: #1f1f1f;
+  background: #1f1f1f;
   color: white;
   min-height: 350px;
   display: flex;
