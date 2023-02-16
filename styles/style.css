@@ -9,7 +9,6 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  width: 100%;
   background: #f2f2f2;
   position: relative;
   display: flex;
@@ -164,7 +163,7 @@
 }
 
 .table__cell {
-  max-width: 250px;
+  width: 250px;
 }
 
 .table__heading {
@@ -185,6 +184,8 @@
 .feynman {
   padding: 0;
   margin: 0 auto;
+  padding-top: 100px;
+  box-sizing: border-box;
   background: #f2f2f2;
   min-height: 890px;
   position: relative;
@@ -208,6 +209,9 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
+  padding: 0;
+  margin-top: 70px;
   top: 70px;
   line-height: 51px;
   font-size: 36px;
