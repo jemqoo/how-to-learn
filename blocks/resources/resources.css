@@ -1,0 +1,12 @@
+.resources {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto 217px auto;
+  }
+
+.resources .section-subtitle {
+    margin-bottom: 80px;
+}

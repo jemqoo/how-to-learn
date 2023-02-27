@@ -1,0 +1,14 @@
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+.page a {
+    transition: opacity 1s;
+  }
+
+.page a:hover {
+    opacity: 0.5;
+  }

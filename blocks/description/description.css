@@ -1,0 +1,7 @@
+.description {
+    display: flex;
+    align-items: center;
+    margin: 100px auto;
+    justify-content: space-between;
+    color: #000000;
+}
